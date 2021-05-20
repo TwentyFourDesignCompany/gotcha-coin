@@ -1,4 +1,5 @@
-import Logo from "../../assests/Logo.png";
+import Logo from "../../assests/white-logo-1.png";
+// import Logo from "../../assests/white.png";
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { NavLink, useHistory } from "react-router-dom";
@@ -75,7 +76,7 @@ const Navbar = () => {
           className="navbar-logo lg:mt-6"
           onClick={closeMobileMenu}
         >
-          <img src={Logo} alt="24  Design Logo" className="w-36 h-28" />
+          <img src={Logo} alt="24  Design Logo" className="w-28 h-24" />
         </NavLink>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}

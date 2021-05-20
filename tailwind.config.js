@@ -10,7 +10,11 @@ module.exports = {
       },
       secodary: {
         main: "#ff8e00",
-        light:'#fee37f'
+        light: "#fee37f",
+      },
+      white: {
+        main: "#ffffff",
+        light: "#eeeeee",
       },
     },
   },

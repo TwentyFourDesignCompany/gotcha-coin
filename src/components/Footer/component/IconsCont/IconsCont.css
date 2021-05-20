@@ -1,0 +1,24 @@
+.single-footer-link {
+  display: block;
+  width: 35px;
+  height: 35px;
+  outline: none !important;
+  cursor: pointer !important;
+  color: #fff;
+  border-radius: 50% !important;
+  border: 1px solid #171f69 !important;
+
+  justify-content: center !important;
+  align-items: center !important;
+  transition: all 0.3s ease-in-out;
+  background-color: #171f69;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.single-link {
+  font-size: 18px;
+}
+.single-footer-link:hover {
+  border: 1px solid #ff8e00 !important;
+  background-color: #ff8e00;
+}

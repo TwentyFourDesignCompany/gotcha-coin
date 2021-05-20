@@ -1,0 +1,33 @@
+.faq-btn {
+  display: block;
+  /* width: 150px;
+  height: 65px; */
+  outline: none !important;
+  cursor: pointer !important;
+  color: #fff;
+  border-radius: 10px !important;
+  border: 1px solid #00073f !important;
+  /* margin-top: 3rem; */
+  justify-content: center !important;
+  align-items: center !important;
+  transition: all 0.3s ease-in-out;
+  background-color: #00073f;
+  align-self: center !important;
+  padding: 1.2rem;
+}
+.faq-btn:focus {
+  outline: none !important;
+}
+/* .faq-btn:hover {
+  background-color: #b66400;
+  color: white;
+} */
+.active-faq {
+  background-color: #ff8e00;
+}
+
+@media screen and (max-width: 550px) {
+  .faq-btn {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+.main-collapse {
+  background-color: #171f69 !important;
+  border-radius: 5px !important;
+  /* height: 60px; */
+  padding: 10px 10px 5px 30px;
+
+  color: #ffffff;
+  /* height: 3rem !important; */
+}
+/* .open {
+  padding-bottom: 5px;
+} */
+.content {
+  /* margin-top: 5px; */
+  font-size: 12px;
+  /* border-top: 1px solid #999; */
+  padding-top: 10px;
+}
+@media screen and (max-width:600px){
+    .main-collapse {
+  padding: 10px 10px 2px 10px;
+}
+}
